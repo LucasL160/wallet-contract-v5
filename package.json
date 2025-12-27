@@ -36,6 +36,7 @@
     },
     "overrides": {
         "@ton-community/func-js-bin": "0.4.5-tvmbeta.3",
-        "@ton-community/func-js": "0.7.0"
+        "@ton-community/func-js": "0.7.0",
+        "axios": "1.13.2"
     }
 }
