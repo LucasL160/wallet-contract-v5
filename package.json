@@ -8,7 +8,7 @@
         "deploy-library": "npx blueprint run deployLibrary",
         "deploy-wallet": "blueprint run deployWalletV5",
         "print-wallet-code": "ts-node ./scripts/printWalletCode.ts",
-        "test": "jest",
+        "test": "jest --verbose",
         "scalpel": "bash ./scripts/scalpel.sh"
     },
     "devDependencies": {
@@ -17,6 +17,12 @@
         "@ton/crypto": "^3.2.0",
         "@ton/sandbox": "^0.41.0",
         "@ton/test-utils": "^0.12.0",
+        "@ton/blueprint": "^0.38.0",
+        "@ton/core": "^0.61.0",
+        "@ton/crypto": "^3.2.0",
+        "@ton/sandbox": "^0.35.1",
+        "@ton/test-utils": "^0.9.0",
+        "@ton/ton": "^15.3.1",
         "@types/jest": "^29.5.0",
         "@types/node": "^20.2.5",
         "@typescript-eslint/eslint-plugin": "^5.38.1",
